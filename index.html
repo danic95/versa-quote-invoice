@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VERSA Quotes</title>
+<meta name="description" content="VERSA Technologies quote and invoice templates in English and Spanish.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;700&display=swap">
+<style>
+:root{--bg:#FFFFFF;--surface:#F7F7F8;--text:#231F20;--text-2:#5D626E;--line:#D6D6D6;--accent:#AB572C;--navy:#262A3F;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1B1E2D;--surface:#262A3F;--text:#F4F4F6;--text-2:#B9BDC9;--line:#3F4562;--accent:#E39A72;--navy:#F4F4F6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1B1E2D;--surface:#262A3F;--text:#F4F4F6;--text-2:#B9BDC9;--line:#3F4562;--accent:#E39A72;--navy:#F4F4F6;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:16px/24px "Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;display:grid;place-items:center;padding:48px 16px}
+main{width:100%;max-width:640px;display:grid;gap:32px}
+.mark{width:48px;height:48px;border-radius:12px}
+h1{margin:0;font-size:30px;line-height:36px;font-weight:700;color:var(--navy)}
+p{margin:0;color:var(--text-2)}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+a.card{display:grid;gap:4px;padding:24px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);text-decoration:none;transition:border-color .15s}
+a.card:hover{border-color:var(--accent)}
+a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card strong{font-size:22px;line-height:28px;font-weight:500}
+.card span{font-size:14px;line-height:20px;color:var(--text-2)}
+.card .go{color:var(--accent);font-weight:500;margin-top:8px}
+small{font-size:12px;line-height:16px;color:var(--text-2)}
+</style>
+</head>
+<body>
+<main>
+  <div style="display:grid;gap:16px">
+    <img class="mark" src="favicon.svg" alt="">
+    <h1>VERSA Technologies<br>Quote &amp; Invoice · Cotización y Factura</h1>
+    <p>Choose a language. Your drafts are saved in this browser only.<br><span lang="es">Elige un idioma. Tus borradores se guardan solo en este navegador.</span></p>
+  </div>
+  <div class="cards">
+    <a class="card" href="en/" hreflang="en" lang="en"><strong>English</strong><span>Quotes and invoices for English-speaking clients.</span><span class="go">Open template →</span></a>
+    <a class="card" href="es/" hreflang="es" lang="es"><strong>Español</strong><span>Cotizaciones y facturas para clientes hispanohablantes.</span><span class="go">Abrir plantilla →</span></a>
+  </div>
+  <small>Each language keeps its own draft and numbering. · Cada idioma guarda su propio borrador y numeración.</small>
+</main>
+</body>
+</html>
